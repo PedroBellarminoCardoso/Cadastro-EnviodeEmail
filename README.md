@@ -37,7 +37,7 @@ poetry install
 
 ### Execução
 
-Para executar o programa, utilize o comando abaixo, substituindo `Nome` pelo nome do funcionário que deseja cadastrar:
+Para executar o programa, utilize o comando abaixo, substituindo `Nome` pelo nome da planilha que deseja:
 
 ```bash
 poetry run -idt "Nome"
