@@ -16,3 +16,31 @@ O projeto tem como objetivo ler uma planilha localizada na raiz do projeto, util
 - **Argparse:** recebimento e tratamento de argumentos pela linha de comando.
 - **HTTPX:** realização de requisições HTTP.
 - **HTML:** estruturação de conteúdo HTML, quando necessário.
+
+## Como executar o projeto
+
+### Pré-requisitos
+
+- Python instalado.
+- Poetry instalado.
+- Planilha com os dados dos funcionários localizada na raiz do projeto.
+
+### Instalação
+
+1. Clone o repositório e acesse a pasta do projeto.
+
+2. Instale as dependências utilizando o Poetry:
+
+```bash
+poetry install
+```
+
+### Execução
+
+Para executar o programa, utilize o comando abaixo, substituindo `Nome` pelo nome do funcionário que deseja cadastrar:
+
+```bash
+poetry run -idt "Nome"
+```
+
+O programa irá utilizar os dados da planilha para realizar o cadastro do funcionário no OrangeHRM e, após a conclusão, enviar um e-mail ao destinatário informado.
