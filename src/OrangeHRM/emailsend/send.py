@@ -25,7 +25,7 @@ def enviar(nome_da_planilha):
 
         remetente = os.getenv("GMAIL_USER")
         senha = os.getenv("GMAIL_PASSWORD")
-        destinatario = "pedrobellarminocardoso@gmail.com"
+        destinatario = "@gmail.com"
 
         if not remetente or not senha:
             print("[EmailSend] Credenciais do Gmail não encontradas.")
