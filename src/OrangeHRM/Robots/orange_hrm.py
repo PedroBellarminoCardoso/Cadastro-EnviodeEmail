@@ -7,11 +7,8 @@ import pandas as pd
 
 
 class OrangeHRM:
-    BASE_URL = "https://opensource-demo.orangehrmlive.com"
-
-    USERNAME = "Admin"
-    PASSWORD = "admin123"
-
+    BASE_URL = "https://opensource-demo.orangehrmlive.com
+    
     def __init__(self):
         self.session = httpx.Client(
             base_url=self.BASE_URL,
