@@ -44,14 +44,3 @@ poetry run -idt "Nome"
 ```
 
 O programa irá utilizar os dados da planilha para realizar o cadastro do funcionário no OrangeHRM e, após a conclusão, enviar um e-mail ao destinatário informado.
-
-## Funcionamento
-
-1. O programa lê a planilha localizada na raiz do projeto.
-2. Os dados dos funcionários são processados e organizados.
-3. O sistema realiza o cadastro dos funcionários no OrangeHRM.
-4. Após a conclusão dos cadastros, um e-mail é enviado ao destinatário informado.
-
-## Objetivo acadêmico
-
-Aplicar os conhecimentos de Python, automação de tarefas, manipulação de planilhas, requisições HTTP e envio de e-mails em um projeto prático de cadastro de funcionários.
